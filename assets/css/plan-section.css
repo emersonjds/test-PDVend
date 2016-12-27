@@ -1,0 +1,60 @@
+.plan-section {
+  height: auto;
+  background-color: #e5e6e5;
+  padding: .5em;
+  position: relative; }
+  .plan-section .title-section {
+    text-transform: uppercase; }
+  .plan-section .value-boxes {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-bottom: 2em; }
+    .plan-section .value-boxes .title-box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #d9844c;
+      color: #fff;
+      text-transform: uppercase;
+      border-radius: 10px 12px 0px 0px;
+      -moz-border-radius: 10px 12px 0px 0px;
+      -webkit-border-radius: 10px 12px 0px 0px;
+      border: 0px solid #000000; }
+    .plan-section .value-boxes .value-box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      position: relative;
+      padding: .5em; }
+      .plan-section .value-boxes .value-box .cash {
+        font-size: 20px; }
+      .plan-section .value-boxes .value-box .value-plan, .plan-section .value-boxes .value-box .desconto {
+        color: #d9844c; }
+      .plan-section .value-boxes .value-box .desconto {
+        text-transform: uppercase;
+        font-weight: bold; }
+    .plan-section .value-boxes .btn-pagar {
+      background-color: #8dcc3d;
+      border-radius: 20px;
+      position: absolute;
+      width: 110px;
+      top: 125px; }
+  .plan-section .table-features {
+    height: 400px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding-left: 0;
+    position: absolute;
+    top: 0px;
+    left: 0; }
+  @media screen and (min-width: 768px) {
+    .plan-section .first-column, .plan-section .second-column {
+      display: flex;
+      align-items: center;
+      justify-content: center; } }
+
+/*# sourceMappingURL=plan-section.css.map */

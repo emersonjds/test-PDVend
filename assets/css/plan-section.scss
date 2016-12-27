@@ -1,0 +1,82 @@
+@mixin flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.plan-section {
+	height: auto;
+	background-color: #e5e6e5;
+	padding: .5em;
+	position: relative;
+
+	.title-section {
+		text-transform: uppercase;
+	}
+
+	.value-boxes {
+		height: 200px;
+		width: 200px;
+		border-radius: 10px;
+		background-color: #fff;
+		margin-bottom: 2em;
+
+		.title-box {
+			@include flex;
+			background-color: #d9844c;
+			color: #fff;
+			text-transform: uppercase;
+			border-radius: 10px 12px 0px 0px;
+			-moz-border-radius: 10px 12px 0px 0px;
+			-webkit-border-radius: 10px 12px 0px 0px;
+			border: 0px solid #000000;
+		}
+
+		.value-box {
+			@include flex;
+			flex-direction: column;
+			position: relative;
+			padding: .5em;
+
+			.cash {
+				font-size: 20px;
+			}
+
+			.value-plan, .desconto {
+				color: #d9844c;
+			}
+
+			.desconto {
+				text-transform: uppercase;
+				font-weight: bold;
+			}
+		}
+
+		.btn-pagar {
+			background-color: #8dcc3d;
+			border-radius: 20px;
+			position: absolute;
+			width: 110px;
+			top: 125px;
+		}
+	}
+
+	.table-features {
+		height: 400px;
+		width: 300px;
+		background-color: #fff;
+		border-radius: 10px;
+		padding-left: 0;
+		position: absolute;
+		top: 0px;
+		left: 0;
+	}
+
+
+	@media screen and (min-width: 768px) {
+		.first-column, .second-column {
+			@include flex;
+		}
+	}
+}
+
