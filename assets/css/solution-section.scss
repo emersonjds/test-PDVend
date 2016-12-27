@@ -49,6 +49,22 @@
 			margin-top: -220px;
 		}
 	}
+
+	.titulo-beneficios {
+		font-family: "Pacifico";
+		color: #fff;
+	}
+
+	.icon-benefits {
+		height: 80px; 
+		width: 80px; 
+		background-color: #fff; 
+		border-radius: 100%;
+	}
+
+	.subtitle-benefits, .text-benefits {
+		color: #fff;
+	}
 }
 
 @media screen and (min-width: 1200px) {
