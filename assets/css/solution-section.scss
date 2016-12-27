@@ -1,0 +1,91 @@
+@font-face {
+	font-family: Pacifico;
+	src: url(../fonts/Pacifico.ttf);
+}
+
+@font-face {
+	font-family: Prelo-Light;
+	src: url(../fonts/Prelo-Light.otf);
+}
+
+.solution-title {
+	font-family: "Pacifico";
+	color: #fff;
+}
+
+.call-solution-text {
+	font-family: "Prelo Light, sans-serif";
+	color: #fff;	
+}
+
+.row-solution-section, .row-img-ana {
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+@media screen and (min-width:320px) {
+	.solution-section {
+		height: 250px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.solution-section {
+		height: auto;
+		background-color: #6c9db3;
+	}
+
+	.row-solution-section {
+		height: 600px;
+		background-image: url("../img/PG2/800x1280/fundo.png");
+		background-repeat: no-repeat; 
+		background-size: 100% 100%; 
+		background-position: center;
+	}
+	.row-img-ana {
+		background-color: #d9844c;
+
+		img {
+			margin-top: -220px;
+		}
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.solution-section {
+		height: auto;
+		background-color: #6c9db3;
+	}
+
+	.row-solution-section {
+		height: 900px;
+		background-image: url("../img/PG2/800x1280/fundo.png");
+		background-repeat: no-repeat; 
+		background-size: 100% 100%; 
+		background-position: center;
+	}
+
+	.col-text-soluction-section {
+		padding-top: 80px;
+	}
+	
+	.solution-title {
+		font-size: 90px;
+	}
+
+	.call-solution-text {
+		font-size: 40px;
+	}
+
+	.row-img-ana {
+		background-color: #d9844c;
+
+		.imagem-ana {
+			@include flex;
+		}
+
+		img {
+			margin-top: -300px;
+		}
+	}
+}

@@ -2,39 +2,90 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 	<title>PDVend</title>
 	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+<!-- 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Pacifico">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Prelo-Bold">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Prelo-Book">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Prelo-ExtraLight">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Prelo-Light">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Prelo-Medium">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Prelo-SemiBold"> -->
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+	<header>
+		<div class="navbar navbar-default navbar-fixed-top topo">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#lista-collapse" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="#" class="navbar-brand">
+						<figure class="logo">
+							<img src="assets/img/logo.png" alt="Logo PDVend">
+						</figure>
+					</a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="lista-collapse">
+					<!-- <ul class="nav navbar-nav">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="meus-filmes.html">Meus Filmes</a></li>
+						<li><a href="favoritos.html">Favoritos</a></li>
+						<li><a href="ultimos-vencedores.html">Ultimos Vencedores</a></li>
+						<li><a href="sobre-nos.html">Sobre Nós</a></li>
+					</ul> -->
+				</div>
+
+				<button class="btn btn-success btn-acesso">Entre na sua loja</button>
+			</div>
+		</div>
+	</header>
 	<main>
-		<header>
-			AQUI VEM O CABECALHO
-		</header>
 
 		<section class="home-section">
-			PRIMEIRA SESSAO
+			<img src="assets/img/smartrede.png" alt="" class="img-responsive">
+			<img src="assets/img/braco.png" alt="" class="img-responsive img-braco">
 		</section>
 
 		<section class="solution-section">
-			
+			<div class="row row-solution-section">
+				<div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-offset-sm-2 col-text-soluction-section">
+					<h1 class="text-center solution-title">A solução</h1>
+					<h2 class="text-center call-solution-text">A PDVend e a Rede trazem uma solução Inovadora para a sua loja. Agora é possível efetuar as vendas, receber por cartão de crédito e débito e emitir notas fiscais tudo da maquininha de cartão</h2>
+				</div>
+			</div>
+
+			<div class="row row-img-ana">
+				<div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
+					<div class="imagem-ana">
+						<figure>
+							<img src="assets/img/PG2/800x1280/ana.png" alt="" class="img-responsive">
+						</figure>
+					</div>
+				</div>
+			</div>
 		</section>
 
 		<section class="plan-section">
-			
+
 		</section>
 
 		<section class="smart-section">
-			
+
 		</section>
 
 		<section class="help-section">
-			
-		</section>
 
-		<footer>
-			RODAPÉ 
-		</footer>
+		</section>
 	</main>
+
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
