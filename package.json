@@ -1,0 +1,15 @@
+{
+  "name": "pdvend",
+  "version": "1.0.0",
+  "description": "Teste para pdvend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Emerson Jr",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1"
+  }
+}
