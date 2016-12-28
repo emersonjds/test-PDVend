@@ -1,5 +1,5 @@
 .login-area {
-  height: 500px;
+  height: 400px;
   background-color: #e5e6e5; }
 
 .modal-title-login {
@@ -10,9 +10,22 @@
 
 @media screen and (min-width: 768px) {
   .modal-content {
-    height: 500px;
+    height: 350px;
     top: 250px;
     background-color: #e5e6e5; }
+    .modal-content input[type=text], .modal-content input[type=password] {
+      background-color: #e5e6e5;
+      border-radius: 20px; }
+    .modal-content .button-area {
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+    .modal-content .btn-entrar {
+      background-color: #8dcc3d;
+      border: none;
+      width: 100px;
+      border-radius: 20px;
+      text-transform: uppercase; }
 
   .modal-title-login img {
     height: 80px;
