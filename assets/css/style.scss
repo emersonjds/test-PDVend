@@ -28,12 +28,12 @@
 	src: url(../fonts/Prelo-SemiBold.otf);
 }
 
-
 @import "home-section";
 @import "solution-section";
 @import "plan-section";
 @import "smart-section";
 @import "help-section";
+@import "login";
 
 html, body {
 	margin: 0;

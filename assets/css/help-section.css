@@ -1,3 +1,30 @@
+.help-section {
+  height: 800px;
+  background-color: #16303d;
+  padding: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around; }
+  .help-section .title-help-section {
+    color: #fff;
+    font-family: "Pacifico";
+    font-size: 40px; }
+  .help-section .list-group-item {
+    color: #fff;
+    background-color: #16303d;
+    border: none; }
+    .help-section .list-group-item .glyphicon {
+      top: 2px;
+      margin-right: 10px; }
+  .help-section .description-section-helper {
+    color: #fff; }
 
+@media screen and (min-width: 768) {
+  .list-item {
+    width: 300px;
+    background-color: #16303d;
+    color: #fff; } }
 
 /*# sourceMappingURL=help-section.css.map */
