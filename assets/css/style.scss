@@ -8,11 +8,32 @@
 	src: url(../fonts/Prelo-Light.otf);
 }
 
+@font-face {
+	font-family: Prelo-Book;
+	src: url(../fonts/Prelo-Book.otf);
+}
+
+@font-face {
+	font-family: Prelo-ExtraLight;
+	src: url(../fonts/ExtraLight.otf);
+}
+
+@font-face {
+	font-family: Prelo-Medium;
+	src: url(../fonts/Prelo-Medium.otf);
+}
+
+@font-face {
+	font-family: Prelo-SemiBold;
+	src: url(../fonts/Prelo-SemiBold.otf);
+}
+
 
 @import "home-section";
 @import "solution-section";
 @import "plan-section";
-@import  "smart-section";
+@import "smart-section";
+@import "help-section";
 
 html, body {
 	margin: 0;

@@ -4,6 +4,18 @@
 @font-face {
   font-family: Prelo-Light;
   src: url(../fonts/Prelo-Light.otf); }
+@font-face {
+  font-family: Prelo-Book;
+  src: url(../fonts/Prelo-Book.otf); }
+@font-face {
+  font-family: Prelo-ExtraLight;
+  src: url(../fonts/ExtraLight.otf); }
+@font-face {
+  font-family: Prelo-Medium;
+  src: url(../fonts/Prelo-Medium.otf); }
+@font-face {
+  font-family: Prelo-SemiBold;
+  src: url(../fonts/Prelo-SemiBold.otf); }
 .home-section {
   background-color: #0f2029;
   display: flex;
