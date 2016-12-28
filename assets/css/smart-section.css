@@ -1,0 +1,49 @@
+.smart-section {
+  height: 800px;
+  background-color: #7dabbf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative; }
+
+.subtitle-smart-rede {
+  font-family: "Pacifico";
+  color: #fff;
+  font-size: 60px;
+  margin-top: -30px; }
+
+@media screen and (min-width: 768px) {
+  .cloud-row {
+    margin-top: 4em; }
+
+  .numvem-1, .nuvem-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+
+  .imagem-ilustracao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2em; }
+
+  .description-smart-section {
+    margin-bottom: 2em;
+    color: #fff;
+    font-size: 15px; }
+
+  .smart-title-section {
+    top: 38px;
+    position: absolute;
+    color: #fff;
+    text-transform: uppercase; }
+
+  .btn-quero-comprar {
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 30px; }
+    .btn-quero-comprar .glyphicon {
+      top: 2px; } }
+
+/*# sourceMappingURL=smart-section.css.map */

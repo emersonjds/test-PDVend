@@ -1,6 +1,18 @@
+@font-face {
+	font-family: Pacifico;
+	src: url(../fonts/Pacifico.ttf);
+}
+
+@font-face {
+	font-family: Prelo-Light;
+	src: url(../fonts/Prelo-Light.otf);
+}
+
+
 @import "home-section";
 @import "solution-section";
 @import "plan-section";
+@import  "smart-section";
 
 html, body {
 	margin: 0;
