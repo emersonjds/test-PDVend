@@ -1,3 +1,21 @@
+.login-area {
+  height: 500px;
+  background-color: #e5e6e5; }
 
+.modal-title-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase; }
+
+@media screen and (min-width: 768px) {
+  .modal-content {
+    height: 500px;
+    top: 250px;
+    background-color: #e5e6e5; }
+
+  .modal-title-login img {
+    height: 80px;
+    width: 80px; } }
 
 /*# sourceMappingURL=login.css.map */
