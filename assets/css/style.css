@@ -116,6 +116,11 @@
     top: 400px;
     position: absolute;
     left: 635px; } }
+@media screen and (min-width: 1400px) {
+  .img-braco {
+    top: 400px;
+    position: absolute;
+    left: 700px; } }
 @font-face {
   font-family: Pacifico;
   src: url(../fonts/Pacifico.ttf); }
@@ -127,12 +132,18 @@
   color: #fff; }
 
 .call-solution-text {
-  font-family: "Prelo Light, sans-serif";
+  font-family: "Prelo-Light";
   color: #fff; }
 
 .row-solution-section, .row-img-ana {
   margin-right: 0px;
   margin-left: 0px; }
+
+.benefits-row {
+  background-color: #d9844c; }
+
+.benefits-table tr {
+  border: hidden; }
 
 @media screen and (min-width: 320px) {
   .solution-section {
@@ -162,7 +173,8 @@
     height: 80px;
     width: 80px;
     background-color: #fff;
-    border-radius: 100%; }
+    border-radius: 100%;
+    margin-top: 18px; }
 
   .subtitle-benefits, .text-benefits {
     color: #fff; } }
@@ -204,6 +216,12 @@
     border-color: #5cb85c; }
   .plan-section .title-section {
     text-transform: uppercase; }
+  .plan-section .title-plan-section {
+    font-family: "Prelo-Light"; }
+  .plan-section .subtitle-text-plan-section {
+    font-family: "Prelo-Light"; }
+  .plan-section .plan-word-smart {
+    font-weight: bold; }
   .plan-section .value-boxes {
     height: 200px;
     width: 275px;
@@ -403,6 +421,18 @@ html, body {
   position: absolute;
   border: none; }
 
+.dropdown {
+  position: absolute !important;
+  left: 0 !important; }
+
+.item-topo {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center; }
+
+.nav-list {
+  margin-left: 80px; }
+
 .icon-bar {
   background-color: #fff !important; }
 
@@ -414,5 +444,10 @@ header {
 main {
   height: auto;
   background-color: lightgray; }
+
+@media only screen and (max-width: 800px) {
+  .navigation-top .navbar-collapse {
+    background-color: #7DABBF;
+    opacity: 0.95; } }
 
 /*# sourceMappingURL=style.css.map */

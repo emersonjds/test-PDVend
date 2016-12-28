@@ -7,9 +7,11 @@
 	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
+
 	<header>
-		<div class="navbar navbar-default navbar-fixed-top topo">
+		<div class="navbar navbar-fixed-top topo" role = "navigation">
 			<div class="container-fluid">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#lista-collapse" aria-expanded="false">
@@ -25,28 +27,29 @@
 					</a>
 				</div>
 
-				<div class="collapse navbar-collapse" id="lista-collapse">
-					<!-- <ul class="nav navbar-nav">
-						<li><a href="index.html">Home</a></li>
-						<li><a href="meus-filmes.html">Meus Filmes</a></li>
-						<li><a href="favoritos.html">Favoritos</a></li>
-						<li><a href="ultimos-vencedores.html">Ultimos Vencedores</a></li>
-						<li><a href="sobre-nos.html">Sobre Nós</a></li>
-					</ul> -->
+				<div class="collapse navbar-collapse collapse-in" id="lista-collapse">
+					<ul class="nav navbar-nav nav-list">
+						<li><a href="#solution" class="item-topo">A solução</a></li>
+						<li><a href="#beneficios" class="item-topo">Beneficios</a></li>
+						<li><a href="#planos" class="item-topo">Assine pdvend</a></li>
+						<li><a href="#adquira" class="item-topo">Compre smartrede</a></li>
+						<li><a href="#ajuda" class="item-topo">Ajuda</a></li>
+					</ul>
 				</div>
 
 				<button class="btn btn-success btn-acesso">Entre na sua loja</button>
 			</div>
 		</div>
 	</header>
-	<main>
 
+
+	<main>
 		<section class="home-section">
 			<img src="assets/img/smartrede.png" alt="" class="img-responsive">
 			<img src="assets/img/braco.png" alt="" class="img-responsive img-braco">
 		</section>
 
-		<section class="solution-section">
+		<section class="solution-section" id="solution">
 			<div class="row row-solution-section">
 				<div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-offset-sm-2 col-text-soluction-section">
 					<h1 class="text-center solution-title">A solução</h1>
@@ -60,446 +63,467 @@
 						<figure>
 							<img src="assets/img/PG2/800x1280/ana.png" alt="" class="img-responsive">
 						</figure>
+					</div>
+				</div>
+			</div>
 
-						<h2 class="text-center titulo-beneficios">Beneficios</h2>
-						
-						<div class="beneficios">
-							<div class="row">
-								<div class="col-sm-3 col-md-3">
+			<div class="row benefits-row" id="beneficios">
+				<div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
+					<h2 class="text-center titulo-beneficios">Beneficios</h2>
+					<table class="table table-responsive benefits-table">
+						<tbody>
+							<tr>
+								<td>
 									<figure class="icon-benefits">
-										<img src="assets/img/PG2/800x1280/icone1.png" alt="" class="img-responsive" style="margin-top: 30px;">
+										<img src="assets/img/PG2/800x1280/icone1.png" alt="" class="img-responsive">
 									</figure>
-								</div>
-								<div class="col-sm-9 col-md-9">
+								</td>
+								<td>
 									<h3 class="subtitle-benefits">BAIXO INVESTIMENTO</h3>
 									<h4 class="text-benefits">Não necessita investimentos em computadores e impressora, tornando a aquisição acessivel.</h4>
-								</div>
-
-								<div class="col-sm-3 col-md-3">
+								</td>
+							</tr>
+							<tr>
+								<td>
 									<figure class="icon-benefits">
-										<img src="assets/img/PG2/800x1280/icone2.png" alt="" class="img-responsive" style="margin-top: 30px;">
+										<img src="assets/img/PG2/800x1280/icone2.png" alt="" class="img-responsive" >
 									</figure>
-								</div>
-								<div class="col-sm-9 col-md-9">
+								</td>
+								<td>
 									<h3 class="subtitle-benefits">EMISSÃO FISCAL FÁCIL</h3>
 									<h4 class="text-benefits">Impressão de nota fiscal, NFC-e e CF-e SAT direto da maquininha de cartão, sem impressora fiscal.</h4>
-								</div>
-
-								<div class="col-sm-3 col-md-3">
+								</td>
+							</tr>
+							<tr>
+								<td>
 									<figure class="icon-benefits">
-										<img src="assets/img/PG2/800x1280/icone3.png" alt="" class="img-responsive" style="margin-top: 30px;">
+										<img src="assets/img/PG2/800x1280/icone3.png" alt="" class="img-responsive">
 									</figure>
-								</div>
-								<div class="col-sm-9 col-md-9">
+								</td>
+								<td>
 									<h3 class="subtitle-benefits">INTEGRAÇÃO</h3>
 									<h4 class="text-benefits">Pagamento e gestão em uma única plataforma para facilitar o gerenciamento da sua loja.</h4>
-								</div>
-
-								<div class="col-sm-3 col-md-3">
+								</td>
+							</tr>
+							<tr>
+								<td>
 									<figure class="icon-benefits">
-										<img src="assets/img/PG2/800x1280/icone4.png" alt="" class="img-responsive" style="margin-top: 30px;">
+										<img src="assets/img/PG2/800x1280/icone4.png" alt="" class="img-responsive">
 									</figure>
-								</div>
-								<div class="col-sm-9 col-md-9">
+								</td>
+								<td>
+									<h3 class="subtitle-benefits">INTEGRAÇÃO</h3>
+									<h4 class="text-benefits">Pagamento e gestão em uma única plataforma para facilitar o gerenciamento da sua loja.</h4>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<figure class="icon-benefits">
+										<img src="assets/img/PG2/800x1280/icone4.png" alt="" class="img-responsive" >
+									</figure>
+								</td>
+								<td>
 									<h3 class="subtitle-benefits">GERENCIAMENTO A DISTANCIA</h3>
 									<h4 class="text-benefits">Controle sua loja por meio de tablets e celulares a qualquer hora e de qualquer lugar.</h4>
-								</div>
-							</div>
-						</div>
-					</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
 				</div>
 			</div>
-		</section>
+		</div>
+	</section>
 
-		<section class="plan-section">
-			<h2 class="title-section text-center">Qual é o seu plano ideal ?! </h2>
+	<section class="plan-section" id="planos">
+		<h2 class="title-section title-plan-section text-center">Qual é o seu plano ideal ?! </h2>
 
-			<div class="row">
-				<div class="col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3">
-					<h3 class="subtitle-section text-center">Caso voce ja tenha a nova maquininha da Rede, a <strong>SmartRede</strong>, e deseja assinar o serviço da PDVend, escolha o plano mais apropriado para o seu negócio:</h3>		
-				</div>
+		<div class="row">
+			<div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
+				<h3 class="subtitle-text-plan-section text-center">Caso voce ja tenha a nova maquininha da Rede, a <span class="plan-word-smart">SmartRede</span>, e deseja assinar o serviço da PDVend, escolha o plano mais apropriado para o seu negócio:</h3>		
 			</div>
+		</div>
+		<br><br>
 
-			<div class="row">
-				<div class="col-sm-6 first-column">
-					<div class="value-plan-box">
-						<div class="value-boxes">
-							<div class="first-box-plan">
-								<div class="title-box">
-									<h3>Plano Anual</h3>
-								</div>
-								<div class="value-box">
-									<p class="value-plan"><span class="cifrao">R$</span><span class="cash">119,20</span>/ mês</p>
-									<span class="text-center">Total a pagar</span>
-									<span class="text-center">R$1.729,40 em até 12x</span>
-
-									<p class="desconto"> 20% de desconto</p>
-									<div class="btn btn-success btn-pagar">PAGAR</div>
-								</div>
+		<div class="row">
+			<div class="col-sm-6 first-column">
+				<div class="value-plan-box">
+					<div class="value-boxes">
+						<div class="first-box-plan">
+							<div class="title-box">
+								<h3>Plano Anual</h3>
 							</div>
-						</div>
+							<div class="value-box">
+								<p class="value-plan"><span class="cifrao">R$</span><span class="cash">119,20</span>/ mês</p>
+								<span class="text-center">Total a pagar</span>
+								<span class="text-center">R$1.729,40 em até 12x</span>
 
-						<div class="value-boxes">
-							<div class="first-box-plan">
-								<div class="title-box">
-									<h3>Plano Anual</h3>
-								</div>
-								<div class="value-box">
-									<p class="value-plan"><span class="cifrao">R$</span><span class="cash">119,20</span>/ mês</p>
-									<span class="text-center">Total a pagar</span>
-									<span class="text-center">R$1.729,40 em até 12x</span>
-
-									<p class="desconto"> 20% de desconto</p>
-									<div class="btn btn-success btn-pagar">PAGAR</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="value-boxes">
-							<div class="first-box-plan">
-								<div class="title-box">
-									<h3>Plano Anual</h3>
-								</div>
-								<div class="value-box">
-									<p class="value-plan"><span class="cifrao">R$</span><span class="cash">119,20</span>/ mês</p>
-									<span class="text-center">Total a pagar</span>
-									<span class="text-center">R$1.729,40 em até 12x</span>
-
-									<p class="desconto"> 20% de desconto</p>
-									<div class="btn btn-success btn-pagar">PAGAR</div>
-								</div>
-							</div>
-						</div>				
-					</div>
-				</div>
-
-				<div class="col-sm-6 second-column">
-					<div class="table-features">
-						<table class="table table-responsive">
-							<tbody>
-								<tr>
-									<td class="td-description">
-										Vendas por dispositivo movel
-									</td>
-									<td class="td-icon">
-										<img src="assets/img/PG3/800x1280/certo.png" alt="sinal-ok">
-									</td>
-								</tr>
-								<tr>
-									<td class="td-description">
-										Histórico de Vendas
-									</td>
-									<td class="td-icon">
-										<img src="assets/img/PG3/800x1280/certo.png" alt="sinal-ok">
-									</td>
-								</tr>
-								<tr>
-									<td class="td-description">
-										NFC-e ilimitadas (cupom fiscal)
-									</td>
-									<td class="td-icon">
-										<img src="assets/img/PG3/800x1280/certo.png" alt="sinal-ok">
-									</td>
-								</tr>
-								<tr>
-									<td class="td-description">
-										Gerenciamento por dispositivos móveis
-									</td>
-									<td class="td-icon">
-										<img src="assets/img/PG3/800x1280/certo.png" alt="sinal-ok">
-									</td>
-								</tr>
-								<tr>
-									<td class="td-description">
-										Relatório de Vendas
-									</td>
-									<td class="td-icon">
-										<img src="assets/img/PG3/800x1280/certo.png" alt="sinal-ok">
-									</td>
-								</tr>
-								<tr>
-									<td class="td-description">
-										Controle de Estoque
-									</td>
-									<td class="td-icon">
-										<img src="assets/img/PG3/800x1280/certo.png" alt="sinal-ok">
-									</td>
-								</tr>
-								<tr>
-									<td class="td-description last-description">
-										Sugestão de preço
-									</td>
-									<td class="td-icon last-icon">
-										<img src="assets/img/PG3/800x1280/certo.png" alt="sinal-ok">
-									</td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-				</div>
-			</div>
-
-			<!-- LINHA 2 --> 
-
-			<div class="row second-row">
-				<div class="col-sm-6 first-column">
-					<div class="value-plan-box">
-						<div class="value-boxes">
-							<div class="first-box-plan">
-								<div class="title-box title-plan-box-2" style="padding: .8em;">
-									<h4 class="text-center">Microempreendedor individual</h4>
-								</div>
-								<div class="value-box value-plan-box-2">
-
-									<p><strike>R$99 / MÊS</strike></p>
-									<p class="value-plan"><span class="cifrao">R$</span><span class="cash">79,20</span>/ mês</p>
-									
-									<div class="btn btn-success btn-assinar">ASSINAR</div>
-								</div>
+								<p class="desconto"> 20% de desconto</p>
+								<div class="btn btn-success btn-pagar">PAGAR</div>
 							</div>
 						</div>
 					</div>
 
-					<p class="text-center">*Valor mensal para o plano anual</p>
-				</div>
+					<div class="value-boxes">
+						<div class="first-box-plan">
+							<div class="title-box">
+								<h3>Plano Anual</h3>
+							</div>
+							<div class="value-box">
+								<p class="value-plan"><span class="cifrao">R$</span><span class="cash">119,20</span>/ mês</p>
+								<span class="text-center">Total a pagar</span>
+								<span class="text-center">R$1.729,40 em até 12x</span>
 
-				<div class="col-sm-6 second-column">
-					<div class="table-features">
-						<table class="table table-responsive">
-							<tbody>
-								<tr>
-									<td class="td-description">
-										Vendas por dispositivo movel
-									</td>
-									<td class="td-icon">
-										<img src="assets/img/PG3/800x1280/certo.png" alt="sinal-ok">
-									</td>
-								</tr>
-								<tr>
-									<td class="td-description">
-										Histórico de Vendas
-									</td>
-									<td class="td-icon">
-										<img src="assets/img/PG3/800x1280/certo.png" alt="sinal-ok">
-									</td>
-								</tr>
-								<tr>
-									<td class="td-description">
-										NFC-e ilimitadas (cupom fiscal)
-									</td>
-									<td class="td-icon">
-										<img src="assets/img/PG3/800x1280/errado.png" alt="nao-ok">
-									</td>
-								</tr>
-								<tr>
-									<td class="td-description">
-										Gerenciamento por dispositivos móveis
-									</td>
-									<td class="td-icon">
-										<img src="assets/img/PG3/800x1280/certo.png" alt="sinal-ok">
-									</td>
-								</tr>
-								<tr>
-									<td class="td-description">
-										Relatório de Vendas
-									</td>
-									<td class="td-icon">
-										<img src="assets/img/PG3/800x1280/certo.png" alt="sinal-ok">
-									</td>
-								</tr>
-								<tr>
-									<td class="td-description">
-										Controle de Estoque
-									</td>
-									<td class="td-icon">
-										<img src="assets/img/PG3/800x1280/certo.png" alt="sinal-ok">
-									</td>
-								</tr>
-								<tr>
-									<td class="td-description last-description">
-										Sugestão de preço
-									</td>
-									<td class="td-icon last-icon">
-										<img src="assets/img/PG3/800x1280/certo.png" alt="sinal-ok">
-									</td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-				</div>
-			</div>
-
-			<!-- FIM LINHA 2 -->
-			<br>
-			<!-- LINHA 3 --> 
-
-			<div class="row third-row">
-				<div class="col-sm-6 first-column">
-					<div class="value-plan-box">
-						<div class="value-boxes">
-							<div class="first-box-plan">
-								<div class="title-box title-plan-box-2" style="padding: .8em;">
-									<h4 class="text-center">Emissor de <br>cupom fiscal</h4>
-								</div>
-								<div class="value-box value-plan-box-2">
-
-									<p><strike>R$79 / MÊS</strike></p>
-									<p class="value-plan"><span class="cifrao">R$</span><span class="cash">63,20</span>/ mês</p>
-									
-									<div class="btn btn-success btn-assinar">ASSINAR</div>
-								</div>
+								<p class="desconto"> 20% de desconto</p>
+								<div class="btn btn-success btn-pagar">PAGAR</div>
 							</div>
 						</div>
 					</div>
 
-					<p class="text-center">*Valor mensal para o plano anual</p>
-				</div>
+					<div class="value-boxes">
+						<div class="first-box-plan">
+							<div class="title-box">
+								<h3>Plano Anual</h3>
+							</div>
+							<div class="value-box">
+								<p class="value-plan"><span class="cifrao">R$</span><span class="cash">119,20</span>/ mês</p>
+								<span class="text-center">Total a pagar</span>
+								<span class="text-center">R$1.729,40 em até 12x</span>
 
-				<div class="col-sm-6 second-column">
-					<div class="table-features">
-						<table class="table table-responsive">
-							<tbody>
-								<tr>
-									<td class="td-description">
-										Vendas por dispositivo movel
-									</td>
-									<td class="td-icon">
-										<img src="assets/img/PG3/800x1280/certo.png" alt="sinal-ok">
-									</td>
-								</tr>
-								<tr>
-									<td class="td-description">
-										Histórico de Vendas
-									</td>
-									<td class="td-icon">
-										<img src="assets/img/PG3/800x1280/certo.png" alt="sinal-ok">
-									</td>
-								</tr>
-								<tr>
-									<td class="td-description">
-										NFC-e ilimitadas (cupom fiscal)
-									</td>
-									<td class="td-icon">
-										<img src="assets/img/PG3/800x1280/certo.png" alt="sinal-ok">
-									</td>
-								</tr>
-								<tr>
-									<td class="td-description">
-										Gerenciamento por dispositivos móveis
-									</td>
-									<td class="td-icon">
-										<img src="assets/img/PG3/800x1280/certo.png" alt="sinal-ok">
-									</td>
-								</tr>
-								<tr>
-									<td class="td-description">
-										Relatório de Vendas
-									</td>
-									<td class="td-icon">
-										<img src="assets/img/PG3/800x1280/errado.png" alt="nao-ok">
-									</td>
-								</tr>
-								<tr>
-									<td class="td-description">
-										Controle de Estoque
-									</td>
-									<td class="td-icon">
-										<img src="assets/img/PG3/800x1280/errado.png" alt="nao-ok">
-									</td>
-								</tr>
-								<tr>
-									<td class="td-description last-description">
-										Sugestão de preço
-									</td>
-									<td class="td-icon last-icon">
-										<img src="assets/img/PG3/800x1280/errado.png" alt="nao-ok">
-									</td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-				</div>
-			</div>
-			<!-- FIM LINHA 3 -->
-		</section>
-
-		<section class="smart-section">
-
-			<figure class="ilustracao-brasao">
-				<img src="assets/img/PG2/800x1280/adquira.png" alt="brasao">
-			</figure>
-
-			<h2 class="title-section smart-title-section text-center">Adquira a</h2>
-			<span class="subtitle-smart-rede">SmartRede</span>
-
-			<div class="row cloud-row">
-				<div class="col-sm-8">
-					<div class="row">
-						<div class="col-sm-6 numvem-1">
-							<figure>
-								<img src="assets/img/PG4/800x1280/nuvem1.png" alt="numvem-esquerda">
-							</figure>
+								<p class="desconto"> 20% de desconto</p>
+								<div class="btn btn-success btn-pagar">PAGAR</div>
+							</div>
 						</div>
-						<div class="col-sm-6 numvem-2">
-							<figure>
-								<img src="assets/img/PG4/800x1280/nuvem2.png" alt="numvem-esquerda">
-							</figure>
-						</div>
-					</div>
+					</div>				
 				</div>
 			</div>
 
-			<figure class="imagem-ilustracao">
-				<img src="assets/img/PG4/800x1280/ilustracao.png" alt="iamgem-ana"/>
-			</figure>
+			<div class="col-sm-6 second-column">
+				<div class="table-features">
+					<table class="table table-responsive">
+						<tbody>
+							<tr>
+								<td class="td-description">
+									Vendas por dispositivo movel
+								</td>
+								<td class="td-icon">
+									<img src="assets/img/PG3/800x1280/certo.png" alt="sinal-ok">
+								</td>
+							</tr>
+							<tr>
+								<td class="td-description">
+									Histórico de Vendas
+								</td>
+								<td class="td-icon">
+									<img src="assets/img/PG3/800x1280/certo.png" alt="sinal-ok">
+								</td>
+							</tr>
+							<tr>
+								<td class="td-description">
+									NFC-e ilimitadas (cupom fiscal)
+								</td>
+								<td class="td-icon">
+									<img src="assets/img/PG3/800x1280/certo.png" alt="sinal-ok">
+								</td>
+							</tr>
+							<tr>
+								<td class="td-description">
+									Gerenciamento por dispositivos móveis
+								</td>
+								<td class="td-icon">
+									<img src="assets/img/PG3/800x1280/certo.png" alt="sinal-ok">
+								</td>
+							</tr>
+							<tr>
+								<td class="td-description">
+									Relatório de Vendas
+								</td>
+								<td class="td-icon">
+									<img src="assets/img/PG3/800x1280/certo.png" alt="sinal-ok">
+								</td>
+							</tr>
+							<tr>
+								<td class="td-description">
+									Controle de Estoque
+								</td>
+								<td class="td-icon">
+									<img src="assets/img/PG3/800x1280/certo.png" alt="sinal-ok">
+								</td>
+							</tr>
+							<tr>
+								<td class="td-description last-description">
+									Sugestão de preço
+								</td>
+								<td class="td-icon last-icon">
+									<img src="assets/img/PG3/800x1280/certo.png" alt="sinal-ok">
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
 
-			<div class="col-sm-6 description-smart-section">
-				<p class="text-center">
-					Para adquirir a <strong><span class="word-smart-rede">SmartRede</span></strong> acesse o link abaixo e entre em contato na central de atendimento Rede, assim que a maqininha chegar comece a usar a <strong class="pdvend">PDVend</strong> para ter mais controle do seu negócio.
+		<!-- LINHA 2 --> 
+
+		<div class="row second-row">
+			<div class="col-sm-6 first-column">
+				<div class="value-plan-box">
+					<div class="value-boxes">
+						<div class="first-box-plan">
+							<div class="title-box title-plan-box-2" style="padding: .8em;">
+								<h4 class="text-center">Microempreendedor individual</h4>
+							</div>
+							<div class="value-box value-plan-box-2">
+
+								<p><strike>R$99 / MÊS</strike></p>
+								<p class="value-plan"><span class="cifrao">R$</span><span class="cash">79,20</span>/ mês</p>
+
+								<div class="btn btn-success btn-assinar">ASSINAR</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<p class="text-center">*Valor mensal para o plano anual</p>
+			</div>
+
+			<div class="col-sm-6 second-column">
+				<div class="table-features">
+					<table class="table table-responsive">
+						<tbody>
+							<tr>
+								<td class="td-description">
+									Vendas por dispositivo movel
+								</td>
+								<td class="td-icon">
+									<img src="assets/img/PG3/800x1280/certo.png" alt="sinal-ok">
+								</td>
+							</tr>
+							<tr>
+								<td class="td-description">
+									Histórico de Vendas
+								</td>
+								<td class="td-icon">
+									<img src="assets/img/PG3/800x1280/certo.png" alt="sinal-ok">
+								</td>
+							</tr>
+							<tr>
+								<td class="td-description">
+									NFC-e ilimitadas (cupom fiscal)
+								</td>
+								<td class="td-icon">
+									<img src="assets/img/PG3/800x1280/errado.png" alt="nao-ok">
+								</td>
+							</tr>
+							<tr>
+								<td class="td-description">
+									Gerenciamento por dispositivos móveis
+								</td>
+								<td class="td-icon">
+									<img src="assets/img/PG3/800x1280/certo.png" alt="sinal-ok">
+								</td>
+							</tr>
+							<tr>
+								<td class="td-description">
+									Relatório de Vendas
+								</td>
+								<td class="td-icon">
+									<img src="assets/img/PG3/800x1280/certo.png" alt="sinal-ok">
+								</td>
+							</tr>
+							<tr>
+								<td class="td-description">
+									Controle de Estoque
+								</td>
+								<td class="td-icon">
+									<img src="assets/img/PG3/800x1280/certo.png" alt="sinal-ok">
+								</td>
+							</tr>
+							<tr>
+								<td class="td-description last-description">
+									Sugestão de preço
+								</td>
+								<td class="td-icon last-icon">
+									<img src="assets/img/PG3/800x1280/certo.png" alt="sinal-ok">
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+
+		<!-- FIM LINHA 2 -->
+		<br>
+		<!-- LINHA 3 --> 
+
+		<div class="row third-row">
+			<div class="col-sm-6 first-column">
+				<div class="value-plan-box">
+					<div class="value-boxes">
+						<div class="first-box-plan">
+							<div class="title-box title-plan-box-2" style="padding: .8em;">
+								<h4 class="text-center">Emissor de <br>cupom fiscal</h4>
+							</div>
+							<div class="value-box value-plan-box-2">
+
+								<p><strike>R$79 / MÊS</strike></p>
+								<p class="value-plan"><span class="cifrao">R$</span><span class="cash">63,20</span>/ mês</p>
+
+								<div class="btn btn-success btn-assinar">ASSINAR</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<p class="text-center">*Valor mensal para o plano anual</p>
+			</div>
+
+			<div class="col-sm-6 second-column">
+				<div class="table-features">
+					<table class="table table-responsive">
+						<tbody>
+							<tr>
+								<td class="td-description">
+									Vendas por dispositivo movel
+								</td>
+								<td class="td-icon">
+									<img src="assets/img/PG3/800x1280/certo.png" alt="sinal-ok">
+								</td>
+							</tr>
+							<tr>
+								<td class="td-description">
+									Histórico de Vendas
+								</td>
+								<td class="td-icon">
+									<img src="assets/img/PG3/800x1280/certo.png" alt="sinal-ok">
+								</td>
+							</tr>
+							<tr>
+								<td class="td-description">
+									NFC-e ilimitadas (cupom fiscal)
+								</td>
+								<td class="td-icon">
+									<img src="assets/img/PG3/800x1280/certo.png" alt="sinal-ok">
+								</td>
+							</tr>
+							<tr>
+								<td class="td-description">
+									Gerenciamento por dispositivos móveis
+								</td>
+								<td class="td-icon">
+									<img src="assets/img/PG3/800x1280/certo.png" alt="sinal-ok">
+								</td>
+							</tr>
+							<tr>
+								<td class="td-description">
+									Relatório de Vendas
+								</td>
+								<td class="td-icon">
+									<img src="assets/img/PG3/800x1280/errado.png" alt="nao-ok">
+								</td>
+							</tr>
+							<tr>
+								<td class="td-description">
+									Controle de Estoque
+								</td>
+								<td class="td-icon">
+									<img src="assets/img/PG3/800x1280/errado.png" alt="nao-ok">
+								</td>
+							</tr>
+							<tr>
+								<td class="td-description last-description">
+									Sugestão de preço
+								</td>
+								<td class="td-icon last-icon">
+									<img src="assets/img/PG3/800x1280/errado.png" alt="nao-ok">
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		<!-- FIM LINHA 3 -->
+	</section>
+
+	<section class="smart-section" id="adquira">
+
+		<figure class="ilustracao-brasao">
+			<img src="assets/img/PG2/800x1280/adquira.png" alt="brasao">
+		</figure>
+
+		<h2 class="title-section smart-title-section text-center">Adquira a</h2>
+		<span class="subtitle-smart-rede">SmartRede</span>
+
+		<div class="row cloud-row">
+			<div class="col-sm-8">
+				<div class="row">
+					<div class="col-sm-6 numvem-1">
+						<figure>
+							<img src="assets/img/PG4/800x1280/nuvem1.png" alt="numvem-esquerda">
+						</figure>
+					</div>
+					<div class="col-sm-6 numvem-2">
+						<figure>
+							<img src="assets/img/PG4/800x1280/nuvem2.png" alt="numvem-esquerda">
+						</figure>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<figure class="imagem-ilustracao">
+			<img src="assets/img/PG4/800x1280/ilustracao.png" alt="iamgem-ana"/>
+		</figure>
+
+		<div class="col-sm-6 description-smart-section">
+			<p class="text-center">
+				Para adquirir a <strong><span class="word-smart-rede">SmartRede</span></strong> acesse o link abaixo e entre em contato na central de atendimento Rede, assim que a maqininha chegar comece a usar a <strong class="pdvend">PDVend</strong> para ter mais controle do seu negócio.
+			</p>
+		</div>
+
+		<div class="btn btn-warning btn-quero-comprar">Quero Comprar <i class="glyphicon glyphicon-chevron-right"></i></div>
+
+	</section>
+
+	<section class="help-section" id="ajuda">
+		<h2 class="title-section title-help-section text-center">Ajuda</h2>
+
+		<div class="row">
+			<div class="col-sm-6">
+				<figure class="cloud-ilustration-help">
+					<img src="assets/img/PG5/800x1280/nuvem-ilustracao.png" alt="ilustração-ajuda">
+				</figure>
+			</div>
+		</div>
+
+		<div class="list-item">
+			<ul class="list-group">
+				<li class="list-group-item"><i class="glyphicon glyphicon-menu-right"></i>Venda Fracionada</li>
+				<li class="list-group-item"><i class="glyphicon glyphicon-menu-right"></i>Desconto por produto</li>
+				<li class="list-group-item"><i class="glyphicon glyphicon-menu-right"></i>Desconto em toda venda</li>
+				<li class="list-group-item"><i class="glyphicon glyphicon-menu-right"></i>Excluir produto</li>
+				<li class="list-group-item"><i class="glyphicon glyphicon-menu-right"></i>Alterar quantidade de produto</li>
+				<li class="list-group-item"><i class="glyphicon glyphicon-menu-right"></i>Cadastrar Produto</li>
+				<li class="list-group-item"><i class=""></i></li>
+			</ul>
+		</div>
+
+
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2">
+				<p class="description-section-helper text-center">
+					Caso sua dúvida persista, entre em contato com nossa central de suporte através do <a href="#">suporte@pdvend.com.br</a> ou 11 2393-8501
 				</p>
 			</div>
+		</div>
+	</section>
+</main>
 
-			<div class="btn btn-warning btn-quero-comprar">Quero Comprar <i class="glyphicon glyphicon-chevron-right"></i></div>
-
-		</section>
-
-		<section class="help-section">
-			<h2 class="title-section title-help-section text-center">Ajuda</h2>
-
-			<div class="row">
-				<div class="col-sm-6">
-					<figure class="cloud-ilustration-help">
-						<img src="assets/img/PG5/800x1280/nuvem-ilustracao.png" alt="ilustração-ajuda">
-					</figure>
-				</div>
-			</div>
-
-			<div class="list-item">
-				<ul class="list-group">
-					<li class="list-group-item"><i class="glyphicon glyphicon-menu-right"></i>Venda Fracionada</li>
-					<li class="list-group-item"><i class="glyphicon glyphicon-menu-right"></i>Desconto por produto</li>
-					<li class="list-group-item"><i class="glyphicon glyphicon-menu-right"></i>Desconto em toda venda</li>
-					<li class="list-group-item"><i class="glyphicon glyphicon-menu-right"></i>Excluir produto</li>
-					<li class="list-group-item"><i class="glyphicon glyphicon-menu-right"></i>Alterar quantidade de produto</li>
-					<li class="list-group-item"><i class="glyphicon glyphicon-menu-right"></i>Cadastrar Produto</li>
-					<li class="list-group-item"><i class=""></i></li>
-				</ul>
-			</div>
-			
-
-			<div class="row">
-				<div class="col-sm-8 col-sm-offset-2">
-					<p class="description-section-helper text-center">
-						Caso sua dúvida persista, entre em contato com nossa central de suporte através do <a href="#">suporte@pdvend.com.br</a> ou 11 2393-8501
-					</p>
-				</div>
-			</div>
-		</section>
-	</main>
-
-	<script src="node_modules/jquery/dist/jquery.min.js"></script>
-	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-	<script src="assets/js/script.js"></script>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="assets/js/script.js"></script>
 </body>
 
 <div class="modal fade" id="modal-login" tabindex="-1" role="dialog">
@@ -532,10 +556,10 @@
 									</div>
 
 									<div class="form-group button-area">
-										
 										<button id="logar" name="logar" class="btn btn-primary btn-entrar">Entrar</button>
-										
 									</div>
+
+									<p class="text-center">Esqueceu a senha ou e-mail ?</p>
 								</fieldset>
 							</form>
 						</div>

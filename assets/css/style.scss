@@ -49,6 +49,21 @@ html, body {
 	border: none;
 }
 
+.dropdown {
+	position: absolute !important;
+	left: 0 !important;
+}
+
+.item-topo {
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+}
+
+.nav-list {
+	margin-left: 80px;
+}
+
 .icon-bar {
 	background-color: #fff !important;
 }
@@ -66,5 +81,11 @@ main {
 	background-color: lightgray;
 }
 
+@media only screen and (max-width: 800px) {
+	.navigation-top .navbar-collapse {
+		background-color: #7DABBF;
+		opacity: 0.95
+	}
+}
 
 

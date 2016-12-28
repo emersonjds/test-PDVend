@@ -14,13 +14,23 @@
 }
 
 .call-solution-text {
-	font-family: "Prelo Light, sans-serif";
+	font-family: "Prelo-Light";
 	color: #fff;	
 }
 
 .row-solution-section, .row-img-ana {
 	margin-right: 0px;
 	margin-left: 0px;
+}
+
+.benefits-row {
+	background-color : #d9844c;
+}
+
+.benefits-table {
+	tr {
+		border: hidden;
+	}
 }
 
 @media screen and (min-width:320px) {
@@ -60,6 +70,7 @@
 		width: 80px; 
 		background-color: #fff; 
 		border-radius: 100%;
+		margin-top: 18px;
 	}
 
 	.subtitle-benefits, .text-benefits {

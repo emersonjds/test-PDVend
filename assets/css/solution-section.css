@@ -1,23 +1,23 @@
 /*
 Error: Undefined mixin 'flex'.
-        on line 100 of assets/css/solution-section.scss, in `flex'
-        from line 100 of assets/css/solution-section.scss
+        on line 111 of assets/css/solution-section.scss, in `flex'
+        from line 111 of assets/css/solution-section.scss
 
-95: 
-96: 	.row-img-ana {
-97: 		background-color: #d9844c;
-98: 
-99: 		.imagem-ana {
-100: 			@include flex;
-101: 		}
-102: 
-103: 		img {
-104: 			margin-top: -300px;
-105: 		}
+106: 
+107: 	.row-img-ana {
+108: 		background-color: #d9844c;
+109: 
+110: 		.imagem-ana {
+111: 			@include flex;
+112: 		}
+113: 
+114: 		img {
+115: 			margin-top: -300px;
+116: 		}
 
 Backtrace:
-assets/css/solution-section.scss:100:in `flex'
-assets/css/solution-section.scss:100
+assets/css/solution-section.scss:111:in `flex'
+assets/css/solution-section.scss:111
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:351:in `block in visit_mixin'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:98:in `block in with_mixin'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
@@ -97,4 +97,4 @@ assets/css/solution-section.scss:100
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'flex'.\A         on line 100 of assets/css/solution-section.scss, in `flex'\A         from line 100 of assets/css/solution-section.scss\A \A 95: \A 96: 	.row-img-ana {\A 97: 		background-color: #d9844c;\A 98: \A 99: 		.imagem-ana {\A 100: 			@include flex;\A 101: 		}\A 102: \A 103: 		img {\A 104: 			margin-top: -300px;\A 105: 		}"; }
+  content: "Error: Undefined mixin 'flex'.\A         on line 111 of assets/css/solution-section.scss, in `flex'\A         from line 111 of assets/css/solution-section.scss\A \A 106: \A 107: 	.row-img-ana {\A 108: 		background-color: #d9844c;\A 109: \A 110: 		.imagem-ana {\A 111: 			@include flex;\A 112: 		}\A 113: \A 114: 		img {\A 115: 			margin-top: -300px;\A 116: 		}"; }

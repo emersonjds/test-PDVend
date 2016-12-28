@@ -7,6 +7,12 @@
     border-color: #5cb85c; }
   .plan-section .title-section {
     text-transform: uppercase; }
+  .plan-section .title-plan-section {
+    font-family: "Prelo-Light"; }
+  .plan-section .subtitle-text-plan-section {
+    font-family: "Prelo-Light"; }
+  .plan-section .plan-word-smart {
+    font-weight: bold; }
   .plan-section .value-boxes {
     height: 200px;
     width: 275px;
