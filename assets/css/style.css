@@ -349,6 +349,9 @@
     border-radius: 30px; }
     .btn-quero-comprar .glyphicon {
       top: 2px; } }
+@media screen and (min-width: 1200px) {
+  .smart-title-section {
+    top: 45px; } }
 .help-section {
   height: 800px;
   background-color: #16303d;

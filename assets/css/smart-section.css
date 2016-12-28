@@ -45,5 +45,8 @@
     border-radius: 30px; }
     .btn-quero-comprar .glyphicon {
       top: 2px; } }
+@media screen and (min-width: 1200px) {
+  .smart-title-section {
+    top: 45px; } }
 
 /*# sourceMappingURL=smart-section.css.map */
