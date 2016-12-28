@@ -1,7 +1,7 @@
 {
   "name": "pdvend",
   "version": "1.0.0",
-  "description": "Teste para pdvend",
+  "description": "Teste para Start up PDVend",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
