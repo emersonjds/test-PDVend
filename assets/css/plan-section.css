@@ -3,11 +3,13 @@
   background-color: #e5e6e5;
   padding: .5em;
   position: relative; }
+  .plan-section .btn-success {
+    border-color: #5cb85c; }
   .plan-section .title-section {
     text-transform: uppercase; }
   .plan-section .value-boxes {
     height: 200px;
-    width: 200px;
+    width: 275px;
     border-radius: 10px;
     background-color: #fff;
     margin-bottom: 2em; }
@@ -41,20 +43,48 @@
       border-radius: 20px;
       position: absolute;
       width: 110px;
-      top: 125px; }
+      top: 125px;
+      border-color: #5cb85c; }
+    .plan-section .value-boxes .btn-assinar {
+      background-color: #8dcc3d;
+      border-radius: 20px;
+      position: absolute;
+      width: 110px;
+      top: 100px;
+      border-color: #8dcc3d; }
+    .plan-section .value-boxes .value-plan-box-2 {
+      padding-top: 1em; }
+    .plan-section .value-boxes .title-plan-box-2 {
+      background-color: #7dabbf; }
   .plan-section .table-features {
-    height: 400px;
+    height: 360px;
     width: 300px;
     background-color: #fff;
     border-radius: 10px;
-    padding-left: 0;
     position: absolute;
     top: 0px;
-    left: 0; }
+    left: 0;
+    padding: 1em; }
+    .plan-section .table-features .td-description, .plan-section .table-features .td-icon {
+      border-bottom: 1px solid #e5e6e5;
+      height: 40px; }
+    .plan-section .table-features .td-description:first-child {
+      border-top: none; }
+    .plan-section .table-features .td-description {
+      text-align: center; }
+    .plan-section .table-features .td-icon {
+      border-left: 1px solid #e5e6e5;
+      border-top: none; }
+    .plan-section .table-features .last-description, .plan-section .table-features .last-icon {
+      border-bottom: none; }
   @media screen and (min-width: 768px) {
     .plan-section .first-column, .plan-section .second-column {
       display: flex;
       align-items: center;
-      justify-content: center; } }
+      justify-content: center; }
+    .plan-section .first-column {
+      flex-direction: column; }
+    .plan-section .second-row, .plan-section .third-row {
+      height: 360px; } }
 
 /*# sourceMappingURL=plan-section.css.map */

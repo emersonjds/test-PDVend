@@ -10,13 +10,17 @@
 	padding: .5em;
 	position: relative;
 
+	.btn-success {
+		border-color:  #5cb85c;
+	}
+
 	.title-section {
 		text-transform: uppercase;
 	}
 
 	.value-boxes {
 		height: 200px;
-		width: 200px;
+		width: 275px;
 		border-radius: 10px;
 		background-color: #fff;
 		margin-bottom: 2em;
@@ -58,24 +62,75 @@
 			position: absolute;
 			width: 110px;
 			top: 125px;
+			border-color: #5cb85c;
 		}
+
+		.btn-assinar {
+			background-color: #8dcc3d;
+			border-radius: 20px;
+			position: absolute;
+			width: 110px;
+			top: 100px;
+			border-color: #8dcc3d;
+		}
+
+		.value-plan-box-2 {
+			padding-top: 1em;
+		}
+
+		.title-plan-box-2 {
+			background-color: #7dabbf;
+		}
+
 	}
 
 	.table-features {
-		height: 400px;
+		height: 360px;
 		width: 300px;
 		background-color: #fff;
 		border-radius: 10px;
-		padding-left: 0;
 		position: absolute;
 		top: 0px;
 		left: 0;
+		padding: 1em;
+
+		.td-description, .td-icon {
+			border-bottom: 1px solid #e5e6e5;
+			height: 40px;
+		}
+
+		.td-description:first-child { 
+			border-top: none;
+		}
+
+		.td-description {
+			text-align: center;
+		}
+
+		.td-icon {
+			border-left: 1px solid #e5e6e5;
+			border-top: none;
+		}
+
+		.last-description, .last-icon {
+			border-bottom: none;
+		}
+
+
 	}
 
 
 	@media screen and (min-width: 768px) {
 		.first-column, .second-column {
 			@include flex;
+		}
+
+		.first-column {
+			flex-direction: column;
+		}
+
+		.second-row, .third-row {
+			height: 360px;
 		}
 	}
 }
