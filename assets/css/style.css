@@ -44,7 +44,8 @@
     font-size: 12px;
     margin-top: -40px;
     right: 0;
-    background-color: #8dcc3d; }
+    background-color: #8dcc3d;
+    text-transform: uppercase; }
 
   .home-section {
     overflow-x: hidden; }
@@ -393,7 +394,6 @@
 @media screen and (min-width: 768px) {
   .modal-content {
     height: 350px;
-    top: 250px;
     background-color: #e5e6e5; }
     .modal-content input[type=text], .modal-content input[type=password] {
       background-color: #e5e6e5;
@@ -452,5 +452,8 @@ main {
   .navigation-top .navbar-collapse {
     background-color: #7DABBF;
     opacity: 0.95; } }
+@media screen and (min-width: 1400px) {
+  .nav-list {
+    margin-left: 190px !important; } }
 
 /*# sourceMappingURL=style.css.map */

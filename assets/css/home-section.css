@@ -26,7 +26,8 @@
     font-size: 12px;
     margin-top: -40px;
     right: 0;
-    background-color: #8dcc3d; }
+    background-color: #8dcc3d;
+    text-transform: uppercase; }
 
   .home-section {
     overflow-x: hidden; }
