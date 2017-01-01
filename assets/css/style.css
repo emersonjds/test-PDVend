@@ -448,6 +448,9 @@ main {
   height: auto;
   background-color: lightgray; }
 
+@media screen and (min-width: 1024px) and (orientation: landscape) {
+  .nav-list {
+    margin-left: -5px; } }
 @media only screen and (max-width: 800px) {
   .navigation-top .navbar-collapse {
     background-color: #7DABBF;
